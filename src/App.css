@@ -1,38 +1,231 @@
+:root {
+  --white: #eee;
+  --black: #222;
+  --grey: #555;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 90vw;
+  max-width: 1200px;
+  min-width: 300px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
+header {
+  color: var(--black);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header span {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 2px;
+}
+header span a:hover {
+  color: var(--grey);
+}
+header a {
+  text-decoration: none;
+  color: var(--black);
+}
+header ul {
+  /* width: 50%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+header ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+header ul li a {
+  text-decoration: none;
+  color: var(--black);
+}
+.intro {
+  min-width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.intro h1 {
+  font-weight: 500;
+  font-size: 3.5rem;
+  margin: 0 0 20px 0;
+}
+.intro h1 span {
+  border-bottom: 5px solid var(--black);
+}
+.intro p {
+  width: 95%;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+  color: var(--grey);
+}
+.About {
+  width: 100%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.About .Content {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 20px 0 0;
+  margin: 20px 0 50px 0;
+}
+.About .Content h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.About .Content p {
+  width: 95%;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+.About .Content p a {
+  /* text-decoration: none; */
+  color: var(--black);
+}
+.About .ImgBox {
+  width: 30%;
+  min-width: 250px;
+  /* height:100%; */
+  position: relative;
+}
+.About .ImgBox img {
+  width: 100%;
+  height: 100%;
+}
+.About .ImgBox img:nth-child(2) {
+  width: 45%;
+  height: 45%;
+  position: absolute;
+  left: -20%;
+  top: -20%;
+}
+.Projects {
+  width: 100%;
+  padding: 10px 0px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Projects h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.Project {
+  width: 95%;
+  border: 1px solid #5555554d;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.Project .Content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.Project .Content h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.Project .Content p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.Project .Content div {
+  display: flex;
+  flex-direction: row;
+}
+.Project .Content div span {
+  margin: 0 40px 0 0;
+  font-size: 1rem;
+}
+.Contact {
+  width: 95%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Contact .Content {
+  width: 50%;
+  min-width: 320px;
+  height:350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.Contact .Content h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.Contact .Content div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+}
+.Contact .Content div span {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.Contact .Form,
+.Contact .Form form {
+  width: 40%;
+  height:350px;
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.Contact .Form form input,
+.Contact .Form form textarea{
+  width:300px;
+  outline:none;
+  border:none;
+  font-weight: 500;
+  border-bottom: 1px solid #555;
+  padding:10px 2px;
+  font-size: 1.25rem;
 }
