@@ -3,17 +3,17 @@
   "name": "Shivam Sharma",
   "icons": [
     {
-      "src": "./ProfilePhoto.webp",
+      "src": "ProfilePhoto.webp",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/webp"
     },
     {
-      "src": "./ProfilePhoto.webp",
+      "src": "rofilePhoto.webp",
       "type": "image/webp",
       "sizes": "192x192"
     },
     {
-      "src": "./ProfilePhoto.webp",
+      "src": "ProfilePhoto.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }
