@@ -5,17 +5,17 @@ const Navbar = () => {
   return (
     <header>
       <span>
-        <LinkItem link="/" content="SHIVAM" />
+        SHIVAM
       </span>
       <ul>
         <li>
           <LinkItem link="/" content="Home" />
         </li>
         <li>
-          <LinkItem link="/" content="About" />
+          <LinkItem link="/" content="Projects" />
         </li>
         <li>
-          <LinkItem link="/" content="Projects" />
+          <LinkItem link="/" content="About" />
         </li>
         <li>
           <LinkItem link="/" content="Contact" />

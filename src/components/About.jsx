@@ -18,13 +18,14 @@ const About = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[]);
 
   return (
     <div className="About">
       <div className="Content">
         <h1>Who am I ?</h1>
-        <p>
+        <p> 
           Hey, I am Shivam Sharma. I am a final year undergraduate Student of
           B.Tech CSE at{" "}
           <a href="https://abesit.in/" target="_blank" rel="noreferrer">

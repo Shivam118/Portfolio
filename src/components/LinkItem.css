@@ -2,6 +2,7 @@
     display: inline-block;
     color: var(--black);
     text-decoration: none;
+    font-size: 1.25rem;
 }
 .cool-link::after {
     content: '';
@@ -23,4 +24,15 @@
 .cool-link img{
     width: 15px;
     margin:0 0 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .cool-link {
+        font-size: 1rem;
+    }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+    .cool-link {
+        font-size: 0.85rem;
+    }
 }

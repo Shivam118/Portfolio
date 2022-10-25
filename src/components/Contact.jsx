@@ -1,15 +1,43 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import LinkItem from "./LinkItem";
 import LinkArrow from "./up.png";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_d0z7xb8",
+        "portfolio_template",
+        form.current,
+        "user_irJPKlhwCBu3OBNquKV4I"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    form.current.reset();
+  };
+
   return (
     <div className="Contact">
       <div className="Content">
-        <h1>Get in touch today.</h1>
+        <h1>
+          Get in touch{" "}
+          <span style={{ borderBottom: "4px solid #222" }}>today</span>.
+        </h1>
         <div>
           <span>
-            <LinkItem link="https://www.linkedin.com/in/shivam-s-652877ba/" content="LinkedIn" />
+            <LinkItem
+              link="https://www.linkedin.com/in/shivam-s-652877ba/"
+              content="LinkedIn"
+            />
             <img
               src={LinkArrow}
               alt="Link"
@@ -33,7 +61,10 @@ const Contact = () => {
             />
           </span>
           <span>
-            <LinkItem link="https://stackoverflow.com/users/14368652/shivam-sharma" content="StackOverflow" />
+            <LinkItem
+              link="https://stackoverflow.com/users/14368652/shivam-sharma"
+              content="StackOverflow"
+            />
             <img
               src={LinkArrow}
               alt="Link"
@@ -41,7 +72,10 @@ const Contact = () => {
             />
           </span>
           <span>
-            <LinkItem link="https://www.facebook.com/shivam118.5" content="Facebook" />
+            <LinkItem
+              link="https://www.facebook.com/shivam118.5"
+              content="Facebook"
+            />
             <img
               src={LinkArrow}
               alt="Link"
@@ -49,7 +83,10 @@ const Contact = () => {
             />
           </span>
           <span>
-            <LinkItem link="https://www.instagram.com/Shivu_118.5" content="Instagram" />
+            <LinkItem
+              link="https://www.instagram.com/Shivu_118.5"
+              content="Instagram"
+            />
             <img
               src={LinkArrow}
               alt="Link"
@@ -59,21 +96,33 @@ const Contact = () => {
         </div>
       </div>
       <div className="Form">
-        <form>
-          <input type="text" placeholder="Name" required/>
+        <form ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="user_name"
+            id="user_name"
+            placeholder="Name"
+            required
+          />
           <br />
-          <input type="email" placeholder="Email" required/>
+          <input
+            type="email"
+            name="user_email"
+            id="user_email"
+            placeholder="Email"
+            required
+          />
           <br />
-          <textarea placeholder="Message" required/>
+          <textarea
+            placeholder="Message"
+            name="message"
+            id="message"
+            maxLength={200}
+            wrap="hard"
+            required
+          />
           <br />
-          <span>
-            <LinkItem link="/" content="Send message" />
-            <img
-              src={LinkArrow}
-              alt="Link"
-              style={{ width: "15px", margin: "0 0 0 15px" }}
-            />
-          </span>
+          <input type="submit" value="Send message" />
         </form>
       </div>
     </div>
