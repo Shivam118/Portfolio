@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import Profile from "./Profile.png";
 import AboutMe from "./AboutMe.svg";
 import LinkItem from "./LinkItem";
-import LinkArrow from "./up.png";
+import LinkArrowDark from "./upDark.png";
+import LinkArrowLight from "./upLight.png";
 
 const About = () => {
   const position = window.pageYOffset;
@@ -38,7 +39,7 @@ const About = () => {
         <span>
           <LinkItem href="/" content="More About Me" />
           <img
-            src={LinkArrow}
+            src={LinkArrowDark}
             alt="Link"
             style={{ width: "15px", margin: "0 0 0 15px" }}
           />

@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import LinkItem from "./LinkItem";
-import LinkArrow from "./up.png";
+import LinkArrowDark from "./upDark.png";
+import LinkArrowLight from "./upLight.png";
 
 const Contact = () => {
   const form = useRef();
@@ -30,7 +31,7 @@ const Contact = () => {
       <div className="Content">
         <h1>
           Get in touch{" "}
-          <span style={{ borderBottom: "4px solid #222" }}>today</span>.
+          <span style={{ borderBottom: "4px solid var(--black)" }}>today</span>.
         </h1>
         <div>
           <span>
@@ -39,7 +40,7 @@ const Contact = () => {
               content="LinkedIn"
             />
             <img
-              src={LinkArrow}
+              src={LinkArrowDark}
               alt="Link"
               style={{ width: "15px", margin: "0 0 0 15px" }}
             />
@@ -47,7 +48,7 @@ const Contact = () => {
           <span>
             <LinkItem link="https://twitter.com/Shivu_118" content="Twitter" />
             <img
-              src={LinkArrow}
+              src={LinkArrowDark}
               alt="Link"
               style={{ width: "15px", margin: "0 0 0 15px" }}
             />
@@ -55,7 +56,7 @@ const Contact = () => {
           <span>
             <LinkItem link="https://github.com/Shivam118" content="Github" />
             <img
-              src={LinkArrow}
+              src={LinkArrowDark}
               alt="Link"
               style={{ width: "15px", margin: "0 0 0 15px" }}
             />
@@ -66,7 +67,7 @@ const Contact = () => {
               content="StackOverflow"
             />
             <img
-              src={LinkArrow}
+              src={LinkArrowDark}
               alt="Link"
               style={{ width: "15px", margin: "0 0 0 15px" }}
             />
@@ -77,7 +78,7 @@ const Contact = () => {
               content="Facebook"
             />
             <img
-              src={LinkArrow}
+              src={LinkArrowDark}
               alt="Link"
               style={{ width: "15px", margin: "0 0 0 15px" }}
             />
@@ -88,7 +89,7 @@ const Contact = () => {
               content="Instagram"
             />
             <img
-              src={LinkArrow}
+              src={LinkArrowDark}
               alt="Link"
               style={{ width: "15px", margin: "0 0 0 15px" }}
             />

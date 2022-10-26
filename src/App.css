@@ -1,7 +1,25 @@
-:root {
-  --white: #eee;
+.light-theme {
+  --white: #ffffff;
+  --black: #273239;
+  --grey: #989898;
+}
+.dark-theme {
+  --white: #17181a;
+  --black: #ffffff;
+  --grey: #989898;
+}
+/* .light-theme {
+  --white: #fafafa;
   --black: #222;
   --grey: #555;
+}
+.dark-theme {
+  --white: #222;
+  --black: #eee;
+  --grey: #bbb;
+} */
+body{
+  background: var(--white);
 }
 .App {
   width: 90vw;
@@ -61,6 +79,7 @@ header ul li a {
   text-align: left;
 }
 .intro h1 {
+  color: var(--black);
   font-weight: 500;
   font-size: 3.5rem;
   margin: 0 0 20px 0;
@@ -96,11 +115,13 @@ header ul li a {
   margin: 20px 0 50px 0;
 }
 .About .Content h1 {
+  color: var(--black);
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 20px;
 }
 .About .Content p {
+  color: var(--black);
   width: 95%;
   font-size: 1.25rem;
   font-weight: 300;
@@ -116,6 +137,7 @@ header ul li a {
   min-width: 250px;
   /* height:100%; */
   position: relative;
+  pointer-events: none;
 }
 .About .ImgBox img {
   width: 100%;
@@ -142,6 +164,7 @@ header ul li a {
   margin: 20px 0 20px 0;
 }
 .Exp_Title h1{
+  color: var(--black);
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 20px;
@@ -179,6 +202,7 @@ header ul li a {
   margin-left:30px;
 }
 .Exp_Card_Org{
+  color: var(--black);
   width:300px;
   font-size:1.5rem;
   font-weight:500;
@@ -187,6 +211,7 @@ header ul li a {
   text-overflow: ellipsis; */
 }
 .Exp_Card_Role{
+  color: var(--black);
   font-weight:300;
   font-size:1rem;
 }
@@ -205,6 +230,7 @@ header ul li a {
   flex-direction: column;
 }
 .Projects h1 {
+  color: var(--black);
   font-size: 3rem;
   font-weight: 500;
   margin: 20px 0px;
@@ -224,6 +250,7 @@ header ul li a {
   justify-content: space-around;
   align-items: center;
   margin: 20px 0;
+  background: var(--white);
 }
 .Project .ImgBox {
   min-width: 300px;
@@ -266,10 +293,12 @@ header ul li a {
   flex-direction: column;
 }
 .Project .Content h1 {
+  color: var(--black);
   font-size: 1.5rem;
   font-weight: 500;
 }
 .Project .Content p {
+  color: var(--black);
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
@@ -294,6 +323,7 @@ header ul li a {
   flex-direction: column;
 }
 .Techstack h1 {
+  color: var(--black);
   font-size: 3rem;
   font-weight: 500;
   margin: 20px 0px;
@@ -339,6 +369,7 @@ header ul li a {
   flex-direction: column;
 }
 .Contact .Content h1 {
+  color: var(--black);
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 20px;
@@ -369,17 +400,20 @@ header ul li a {
   outline: none;
   border: none;
   font-weight: 500;
+  background: transparent;
   border-bottom: 1px solid #555;
   padding: 10px 2px;
   font-size: 1.25rem;
 }
 .Contact .Form form input[type="submit"] {
   border-radius: 5px;
-  border-bottom: 1px solid var(--black);
-  border-right: 1px solid var(--black);
+  border: 1px solid var(--black);
+  border-bottom: 2px solid var(--black);
+  border-right: 2px solid var(--black);
   font-size: 1.25rem;
   font-weight: 500;
   cursor: pointer;
+  color: var(--black);
 }
 .Contact .Form form input:hover[type="submit"] {
   background: var(--black);
@@ -396,6 +430,7 @@ footer {
 }
 footer address {
   font-weight: 300;
+  color: var(--black);
 }
 footer .Logos {
   width: 300px;
@@ -404,6 +439,26 @@ footer .Logos {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.ToggleButton{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100;
+}
+.ToggleButton img{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {
@@ -616,5 +671,15 @@ footer .Logos {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+  }
+  .ToggleButton{
+    bottom: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  .ToggleButton img{
+    width: 20px;
+    height: 20px;
   }
 }

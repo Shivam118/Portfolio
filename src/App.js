@@ -12,15 +12,14 @@ import ThemeToggle from "./components/ThemeToggle";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <ThemeToggle />
-      <hr />
+      <Navbar />
       <Intro />
       <hr />
       <Projects />
       <hr />
       <TechStack />
-      <hr/>
+      <hr />
       <Experience />
       <hr />
       <About />

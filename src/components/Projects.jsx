@@ -1,6 +1,6 @@
 import React from "react";
 import LinkItem from "./LinkItem";
-import LinkArrow from "./up.png";
+import LinkArrowDark from "./upDark.png";
 import NoteMakingApp from "./Projects/noteMakingApp.png";
 import CardiovascularDisease from "./Projects/CardiovascularDisease.jpg";
 
@@ -20,7 +20,7 @@ const Project = ({ title, desc, link, code, img, tech }) => {
             <span>
               <LinkItem link={link} content="Visit" />
               <img
-                src={LinkArrow}
+                src={LinkArrowDark}
                 alt="Link"
                 style={{ width: "15px", margin: "0 0 0 15px" }}
               />
@@ -30,7 +30,7 @@ const Project = ({ title, desc, link, code, img, tech }) => {
             <span>
               <LinkItem link={code} content="Code" />
               <img
-                src={LinkArrow}
+                src={LinkArrowDark}
                 alt="Link"
                 style={{ width: "15px", margin: "0 0 0 15px" }}
               />

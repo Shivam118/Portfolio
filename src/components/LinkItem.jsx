@@ -5,7 +5,6 @@ const LinkItem = ({ link, content, icon }) => {
   return (
     <a className="cool-link" href={link} target="_blank" rel="noreferrer">
       {content}
-      
     </a>
   );
 };
