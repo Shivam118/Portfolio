@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5ac92e22.css",
-    "main.js": "/Portfolio/static/js/main.d3ddf9c5.js",
+    "main.css": "/Portfolio/static/css/main.7347bdbf.css",
+    "main.js": "/Portfolio/static/js/main.280dd038.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Profile.png": "/Portfolio/static/media/Profile.fad3a891d4c72a0594ed.png",
     "static/media/react.png": "/Portfolio/static/media/react.81ed438b18e24116794d.png",
@@ -18,19 +18,19 @@
     "static/media/firebase.png": "/Portfolio/static/media/firebase.b8108f541105ad8c9892.png",
     "static/media/noteMakingApp.png": "/Portfolio/static/media/noteMakingApp.3690adaa5f790ca412a1.png",
     "static/media/photoshop.png": "/Portfolio/static/media/photoshop.aa453ab3390711ee7f07.png",
-    "static/media/NEO.png": "/Portfolio/static/media/NEO.af63d1371981746b7af0.png",
+    "static/media/NEO.png": "/Portfolio/static/media/NEO.60c2b732089b26ea747b.png",
     "static/media/mongodb.png": "/Portfolio/static/media/mongodb.7fa5a27fdebca7f75f3a.png",
     "static/media/gcloud.png": "/Portfolio/static/media/gcloud.99d79f3edf5f047beed2.png",
     "static/media/next.png": "/Portfolio/static/media/next.6db19b31cc0a2f63cff4.png",
     "static/media/AboutMe.svg": "/Portfolio/static/media/AboutMe.d51bc4edbf074dc7d0c908a8aac08320.svg",
     "static/media/js.png": "/Portfolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/Portfolio/index.html",
-    "main.5ac92e22.css.map": "/Portfolio/static/css/main.5ac92e22.css.map",
-    "main.d3ddf9c5.js.map": "/Portfolio/static/js/main.d3ddf9c5.js.map",
+    "main.7347bdbf.css.map": "/Portfolio/static/css/main.7347bdbf.css.map",
+    "main.280dd038.js.map": "/Portfolio/static/js/main.280dd038.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ac92e22.css",
-    "static/js/main.d3ddf9c5.js"
+    "static/css/main.7347bdbf.css",
+    "static/js/main.280dd038.js"
   ]
 }
