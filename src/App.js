@@ -6,11 +6,13 @@ import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
+import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <ThemeToggle />
       {/* <hr /> */}
       <Intro />
       <hr />
