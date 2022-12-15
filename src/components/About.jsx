@@ -3,7 +3,9 @@ import Profile from "./Profile.png";
 import AboutMe from "./AboutMe.svg";
 import LinkItem from "./LinkItem";
 import LinkArrowDark from "./upDark.png";
+// eslint-disable-next-line no-unused-vars
 import LinkArrowLight from "./upLight.png";
+import Resume from "./Shivam_Sharma.pdf";
 
 const About = () => {
   const position = window.pageYOffset;
@@ -11,22 +13,22 @@ const About = () => {
 
   const handleScroll = () => {
     // console.log("Position" + scrollPosition);
-    setScrollPosition(0.25*position);
+    setScrollPosition(0.25 * position);
   };
 
-  useEffect(() => { 
+  useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
-    <div className="About">
+    <div className="About" id="AboutId">
       <div className="Content">
         <h1>Who am I ?</h1>
-        <p> 
+        <p>
           Hey, I am Shivam Sharma. I am a final year undergraduate Student of
           B.Tech CSE at{" "}
           <a href="https://abesit.in/" target="_blank" rel="noreferrer">
@@ -37,7 +39,13 @@ const About = () => {
         </p>
         <br />
         <span>
-          <LinkItem href="/" content="More About Me" />
+          <a
+            href={Resume}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkItem href={Resume} content="More About Me" />
+          </a>
           <img
             src={LinkArrowDark}
             alt="Link"
@@ -50,7 +58,7 @@ const About = () => {
         <img
           src={AboutMe}
           alt="Profile"
-          style={{ transform: 'rotate('+ scrollPosition +'deg)',  }}
+          style={{ transform: "rotate(" + scrollPosition + "deg)" }}
         />
       </div>
     </div>

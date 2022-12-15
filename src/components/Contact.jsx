@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import LinkItem from "./LinkItem";
 import LinkArrowDark from "./upDark.png";
-import LinkArrowLight from "./upLight.png";
 
 const Contact = () => {
   const form = useRef();
@@ -27,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="Contact">
+    <div className="Contact" id="ContactID">
       <div className="Content">
         <h1>
           Get in touch{" "}

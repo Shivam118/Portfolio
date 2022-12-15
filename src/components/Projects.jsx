@@ -44,7 +44,7 @@ const Project = ({ title, desc, link, code, img, tech }) => {
 
 const Projects = () => {
   return (
-    <div className="Projects">
+    <div className="Projects" id="ProjectID">
       <h1>Projects</h1>
       <span>
         <Project

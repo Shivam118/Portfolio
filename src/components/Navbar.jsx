@@ -1,24 +1,34 @@
 import React from "react";
+import { Link } from "react-scroll";
 import LinkItem from "./LinkItem";
 
 const Navbar = () => {
   return (
     <header>
-      <span>
-        SHIVAM
-      </span>
+      <span>SHIVAM</span>
       <ul>
         <li>
-          <LinkItem link="/" content="Home" />
+          <LinkItem content="Home" />
         </li>
         <li>
-          <LinkItem link="/" content="Projects" />
+          <Link to="ProjectID" spy={true} smooth={true} duration={1000}>
+            <LinkItem content="Projects" />
+          </Link>
         </li>
         <li>
-          <LinkItem link="/" content="About" />
+          <Link to="ExpID" spy={true} smooth={true} duration={1000}>
+            <LinkItem content="Experience" />
+          </Link>
         </li>
         <li>
-          <LinkItem link="/" content="Contact" />
+          <Link to="AboutId" spy={true} smooth={true} duration={1000}>
+            <LinkItem content="About" />
+          </Link>
+        </li>
+        <li>
+          <Link to="ContactID" spy={true} smooth={true} duration={1000}>
+            <LinkItem content="Contact" />
+          </Link>
         </li>
       </ul>
     </header>

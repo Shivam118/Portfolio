@@ -1,6 +1,9 @@
 import React from "react";
 import NEO from "./Projects/NEO.png";
 import LogoR from "./Projects/LogoR.png";
+// eslint-disable-next-line no-unused-vars
+import LogoE from "./Projects/eqlfinlogo.svg";
+
 
 const ExpCard = ({ imgSrc, Org, Role, timing }) => {
   return (
@@ -19,16 +22,28 @@ const ExpCard = ({ imgSrc, Org, Role, timing }) => {
 
 const Experience = () => {
   return (
-    <div className="Exp">
+    <div className="Exp" id="ExpID">
       <div className="Exp_Title">
         <h1>EXPERIENCE</h1>
       </div>
       <div className="Exp_List">
+        {/* <ExpCard
+          imgSrc={LogoE}
+          Role="Full Stack Developer Intern"
+          Org="EQLFIN"
+          timing="Dec 2022 - Present"
+        /> */}
         <ExpCard
           imgSrc={LogoR}
-          Role="Front-End Developer"
+          Role="Senior Full Stack Developer Intern"
           Org="Redient Security"
-          timing="3 months"
+          timing="2 months"
+        />
+        <ExpCard
+          imgSrc={LogoR}
+          Role="Front-End Developer Intern"
+          Org="Redient Security"
+          timing="2 months"
         />
         <ExpCard
           imgSrc={NEO}
