@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7347bdbf.css",
-    "main.js": "/Portfolio/static/js/main.280dd038.js",
+    "main.js": "/Portfolio/static/js/main.c3d7af68.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Profile.png": "/Portfolio/static/media/Profile.fad3a891d4c72a0594ed.png",
+    "static/media/Shivam_Sharma.pdf": "/Portfolio/static/media/Shivam_Sharma.e443576663032d7044b1.pdf",
     "static/media/react.png": "/Portfolio/static/media/react.81ed438b18e24116794d.png",
     "static/media/CardiovascularDisease.jpg": "/Portfolio/static/media/CardiovascularDisease.5a85daa84d6e0ffa6294.jpg",
     "static/media/vscode.png": "/Portfolio/static/media/vscode.19edc3fbac1c451f289d.png",
@@ -23,14 +24,15 @@
     "static/media/gcloud.png": "/Portfolio/static/media/gcloud.99d79f3edf5f047beed2.png",
     "static/media/next.png": "/Portfolio/static/media/next.6db19b31cc0a2f63cff4.png",
     "static/media/AboutMe.svg": "/Portfolio/static/media/AboutMe.d51bc4edbf074dc7d0c908a8aac08320.svg",
+    "static/media/eqlfinlogo.svg": "/Portfolio/static/media/eqlfinlogo.fba9fa1eb2c6aaa158de3661e0c6b2f1.svg",
     "static/media/js.png": "/Portfolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/Portfolio/index.html",
     "main.7347bdbf.css.map": "/Portfolio/static/css/main.7347bdbf.css.map",
-    "main.280dd038.js.map": "/Portfolio/static/js/main.280dd038.js.map",
+    "main.c3d7af68.js.map": "/Portfolio/static/js/main.c3d7af68.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7347bdbf.css",
-    "static/js/main.280dd038.js"
+    "static/js/main.c3d7af68.js"
   ]
 }
