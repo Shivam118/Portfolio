@@ -27,12 +27,12 @@ const Experience = () => {
         <h1>EXPERIENCE</h1>
       </div>
       <div className="Exp_List">
-        {/* <ExpCard
+        <ExpCard
           imgSrc={LogoE}
           Role="Full Stack Developer Intern"
           Org="EQLFIN"
           timing="Dec 2022 - Present"
-        /> */}
+        />
         <ExpCard
           imgSrc={LogoR}
           Role="Senior Full Stack Developer Intern"
