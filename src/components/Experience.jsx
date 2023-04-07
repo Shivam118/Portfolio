@@ -4,7 +4,6 @@ import LogoR from "./Projects/LogoR.png";
 // eslint-disable-next-line no-unused-vars
 import LogoE from "./Projects/eqlfinlogo.svg";
 
-
 const ExpCard = ({ imgSrc, Org, Role, timing }) => {
   return (
     <div className="Exp_Card">
@@ -29,9 +28,15 @@ const Experience = () => {
       <div className="Exp_List">
         <ExpCard
           imgSrc={LogoE}
+          Role="Full Stack Developer"
+          Org="EQLFIN"
+          timing="Apr 2023 - Present"
+        />
+        <ExpCard
+          imgSrc={LogoE}
           Role="Full Stack Developer Intern"
           Org="EQLFIN"
-          timing="Dec 2022 - Present"
+          timing="Dec 2022 - Apr 2023"
         />
         <ExpCard
           imgSrc={LogoR}
