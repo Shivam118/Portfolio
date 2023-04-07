@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.af35e066.css",
-    "main.js": "/Portfolio/static/js/main.06d70730.js",
+    "main.js": "/Portfolio/static/js/main.59660d5a.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Shivam_Sharma.pdf": "/Portfolio/static/media/Shivam_Sharma.71118ddc66467e7d1472.pdf",
     "static/media/Profile.png": "/Portfolio/static/media/Profile.fad3a891d4c72a0594ed.png",
@@ -27,11 +27,11 @@
     "static/media/js.png": "/Portfolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/Portfolio/index.html",
     "main.af35e066.css.map": "/Portfolio/static/css/main.af35e066.css.map",
-    "main.06d70730.js.map": "/Portfolio/static/js/main.06d70730.js.map",
+    "main.59660d5a.js.map": "/Portfolio/static/js/main.59660d5a.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af35e066.css",
-    "static/js/main.06d70730.js"
+    "static/js/main.59660d5a.js"
   ]
 }
