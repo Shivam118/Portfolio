@@ -30,7 +30,7 @@ const Experience = () => {
           imgSrc={LogoE}
           Role="Full Stack Developer"
           Org="EQLFIN"
-          timing="Apr 2023 - Present"
+          timing="Apr 2023 - Jul 2023"
         />
         <ExpCard
           imgSrc={LogoE}
@@ -42,13 +42,13 @@ const Experience = () => {
           imgSrc={LogoR}
           Role="Senior Full Stack Developer Intern"
           Org="Redient Security"
-          timing="2 months"
+          timing="Sept 2022 - Nov 2022"
         />
         <ExpCard
           imgSrc={LogoR}
           Role="Front-End Developer Intern"
           Org="Redient Security"
-          timing="2 months"
+          timing="Jun 2022 - Sept 2022"
         />
         <ExpCard
           imgSrc={NEO}
