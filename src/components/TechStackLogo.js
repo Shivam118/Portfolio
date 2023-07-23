@@ -17,6 +17,8 @@ import postman from "./TechLogos/postman.png";
 import react from "./TechLogos/react.png";
 import vscode from "./TechLogos/vscode.png";
 import solidity from "./TechLogos/solidity.png";
+import go from "./TechLogos/go.png";
+import graphql from "./TechLogos/graphql.png";
 
 const techLogos = {
   python,
@@ -38,6 +40,8 @@ const techLogos = {
   react,
   vscode,
   solidity,
+  go,
+  graphql,
 };
 
 export default techLogos;

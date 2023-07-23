@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <address>© 2022 - Shivam Sharma</address>
       <div className="Logos">
-          <a href="https://www.instagram.com/shivu_118.5/">
+          <a href="https://www.instagram.com/_sharma_shi.v/">
             <img
               src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"
               alt="SocialMediaIcons"

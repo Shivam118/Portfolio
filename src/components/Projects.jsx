@@ -1,8 +1,8 @@
 import React from "react";
 import LinkItem from "./LinkItem";
-import LinkArrowDark from "./upDark.png";
 import NoteMakingApp from "./Projects/noteMakingApp.png";
 import CardiovascularDisease from "./Projects/CardiovascularDisease.jpg";
+import PolygonChainDonationPortal from "./Projects/PolygonChainDonationPortal.png";
 
 const Project = ({ title, desc, link, code, img, tech }) => {
   return (
@@ -19,21 +19,25 @@ const Project = ({ title, desc, link, code, img, tech }) => {
           {link !== undefined ? (
             <span>
               <LinkItem link={link} content="Visit" />
-              <img
-                src={LinkArrowDark}
-                alt="Link"
-                style={{ width: "15px", margin: "0 0 0 15px" }}
-              />
+              &nbsp;&nbsp;
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                <path
+                  d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"
+                  fill="var(--black)"
+                />
+              </svg>
             </span>
           ) : null}
           {code !== undefined ? (
             <span>
               <LinkItem link={code} content="Code" />
-              <img
-                src={LinkArrowDark}
-                alt="Link"
-                style={{ width: "15px", margin: "0 0 0 15px" }}
-              />
+              &nbsp;&nbsp;
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                <path
+                  d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"
+                  fill="var(--black)"
+                />
+              </svg>
             </span>
           ) : null}
         </div>
@@ -47,6 +51,13 @@ const Projects = () => {
     <div className="Projects" id="ProjectID">
       <h1>Projects</h1>
       <span>
+        <Project
+          title="Donation Portal (Polygon Based-Matic Network)"
+          desc="A Crowdsource-Funding platform for Patients (verified by Hospital/s)."
+          tech="MongoDB | Express | ReactJs (Material UI) | NodeJs "
+          code="https://github.com/Shivam118/Major_Project"
+          img={PolygonChainDonationPortal}
+        />
         <Project
           title="Cardiovascular Disease Prediction"
           desc="A Platform to predict chances of having Heart Disease."

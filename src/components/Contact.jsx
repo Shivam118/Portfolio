@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import LinkItem from "./LinkItem";
-import LinkArrowDark from "./upDark.png";
 
 const Contact = () => {
   const form = useRef();
@@ -38,60 +37,72 @@ const Contact = () => {
               link="https://www.linkedin.com/in/shivam-s-652877ba/"
               content="LinkedIn"
             />
-            <img
-              src={LinkArrowDark}
-              alt="Link"
-              style={{ width: "15px", margin: "0 0 0 15px" }}
-            />
+            &nbsp;&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path
+                d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"
+                fill="var(--black)"
+              />
+            </svg>
           </span>
           <span>
             <LinkItem link="https://twitter.com/Shivu_118" content="Twitter" />
-            <img
-              src={LinkArrowDark}
-              alt="Link"
-              style={{ width: "15px", margin: "0 0 0 15px" }}
-            />
+            &nbsp;&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path
+                d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"
+                fill="var(--black)"
+              />
+            </svg>
           </span>
           <span>
             <LinkItem link="https://github.com/Shivam118" content="Github" />
-            <img
-              src={LinkArrowDark}
-              alt="Link"
-              style={{ width: "15px", margin: "0 0 0 15px" }}
-            />
+            &nbsp;&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path
+                d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"
+                fill="var(--black)"
+              />
+            </svg>
           </span>
           <span>
             <LinkItem
               link="https://stackoverflow.com/users/14368652/shivam-sharma"
               content="StackOverflow"
             />
-            <img
-              src={LinkArrowDark}
-              alt="Link"
-              style={{ width: "15px", margin: "0 0 0 15px" }}
-            />
+            &nbsp;&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path
+                d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"
+                fill="var(--black)"
+              />
+            </svg>
           </span>
           <span>
             <LinkItem
               link="https://www.facebook.com/shivam118.5"
               content="Facebook"
             />
-            <img
-              src={LinkArrowDark}
-              alt="Link"
-              style={{ width: "15px", margin: "0 0 0 15px" }}
-            />
+            &nbsp;&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path
+                d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"
+                fill="var(--black)"
+              />
+            </svg>
           </span>
           <span>
             <LinkItem
-              link="https://www.instagram.com/Shivu_118.5"
+              link="https://www.instagram.com/_sharma_shi.v"
               content="Instagram"
             />
-            <img
-              src={LinkArrowDark}
-              alt="Link"
-              style={{ width: "15px", margin: "0 0 0 15px" }}
-            />
+            &nbsp;&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path
+                d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"
+                fill="var(--black)"
+              />
+            </svg>
           </span>
         </div>
       </div>
