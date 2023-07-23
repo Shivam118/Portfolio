@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.af35e066.css",
-    "main.js": "/Portfolio/static/js/main.37fa5bdf.js",
+    "main.js": "/Portfolio/static/js/main.f7f264db.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Shivam_Sharma.pdf": "/Portfolio/static/media/Shivam_Sharma.71118ddc66467e7d1472.pdf",
     "static/media/Profile.png": "/Portfolio/static/media/Profile.fad3a891d4c72a0594ed.png",
     "static/media/react.png": "/Portfolio/static/media/react.81ed438b18e24116794d.png",
     "static/media/CardiovascularDisease.jpg": "/Portfolio/static/media/CardiovascularDisease.5a85daa84d6e0ffa6294.jpg",
     "static/media/vscode.png": "/Portfolio/static/media/vscode.19edc3fbac1c451f289d.png",
+    "static/media/graphql.png": "/Portfolio/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/css.png": "/Portfolio/static/media/css.7b19841d6602e0b1fe09.png",
     "static/media/html.png": "/Portfolio/static/media/html.16f72e1cb51965b88ff6.png",
     "static/media/jupyter.png": "/Portfolio/static/media/jupyter.e0e612fd290b62ecd44a.png",
@@ -21,17 +22,18 @@
     "static/media/photoshop.png": "/Portfolio/static/media/photoshop.aa453ab3390711ee7f07.png",
     "static/media/NEO.png": "/Portfolio/static/media/NEO.60c2b732089b26ea747b.png",
     "static/media/mongodb.png": "/Portfolio/static/media/mongodb.7fa5a27fdebca7f75f3a.png",
+    "static/media/go.png": "/Portfolio/static/media/go.6a3cd1884425f3b03c7d.png",
     "static/media/gcloud.png": "/Portfolio/static/media/gcloud.99d79f3edf5f047beed2.png",
     "static/media/next.png": "/Portfolio/static/media/next.6db19b31cc0a2f63cff4.png",
     "static/media/eqlfinlogo.svg": "/Portfolio/static/media/eqlfinlogo.b24a61629f04b170509aff3534d703b4.svg",
     "static/media/js.png": "/Portfolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/Portfolio/index.html",
     "main.af35e066.css.map": "/Portfolio/static/css/main.af35e066.css.map",
-    "main.37fa5bdf.js.map": "/Portfolio/static/js/main.37fa5bdf.js.map",
+    "main.f7f264db.js.map": "/Portfolio/static/js/main.f7f264db.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af35e066.css",
-    "static/js/main.37fa5bdf.js"
+    "static/js/main.f7f264db.js"
   ]
 }
