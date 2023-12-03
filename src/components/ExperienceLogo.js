@@ -1,5 +1,5 @@
-import NEO from "./Projects/NEO.png";
-import LogoR from "./Projects/LogoR.png";
-import LogoE from "./Projects/eqlfinlogo.svg";
+import NEO from "../assets/images/Projects/NEO.png";
+import LogoR from "../assets/images/Projects/LogoR.png";
+import LogoE from "../assets/images/Projects/eqlfinlogo.svg";
 
 export { NEO, LogoR, LogoE };

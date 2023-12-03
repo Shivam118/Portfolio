@@ -9,7 +9,7 @@ const Intro = () => {
         full stack <span>web applications</span>
       </h1>
       <br />
-      <p>Python | MERN Stack | Blockchain Enthusiast</p>
+      <p>MERN Stack | Web & Mobile | Blockchain & Cloud Enthusiast </p>
     </div>
   );
 };

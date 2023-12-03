@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Light from "./Projects/Light.png";
-import Dark from "./Projects/Dark.png";
+import Light from "../assets/images/Projects/Light.png";
+import Dark from "../assets/images/Projects/Dark.png";
 
 const ThemeToggle = () => {
   const [theme, setTheme] = useState("light-theme");
