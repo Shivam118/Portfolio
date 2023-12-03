@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0ea7d094.css",
-    "main.js": "/Portfolio/static/js/main.20a6ac6b.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Shivam_Sharma.pdf": "/Portfolio/static/media/Shivam_Sharma.1e0b54ee3ec968bf50a2.pdf",
+    "main.css": "/Portfolio/static/css/main.9a1bd267.css",
+    "main.js": "/Portfolio/static/js/main.4ee96246.js",
+    "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/Alemeno.gif": "/Portfolio/static/media/Alemeno.f120807a2e519c4fac6d.gif",
+    "static/media/ChatGPTWriterExtension.gif": "/Portfolio/static/media/ChatGPTWriterExtension.dae00d80577ebca0a184.gif",
+    "static/media/onlineEditor.gif": "/Portfolio/static/media/onlineEditor.bf9544ceaef6efe27345.gif",
+    "static/media/ChatBotAppointment.gif": "/Portfolio/static/media/ChatBotAppointment.2f4c4810cfe2b2a677b2.gif",
     "static/media/PolygonChainDonationPortal.png": "/Portfolio/static/media/PolygonChainDonationPortal.bf915f9ff18a47be23d5.png",
     "static/media/react.png": "/Portfolio/static/media/react.81ed438b18e24116794d.png",
     "static/media/CardiovascularDisease.jpg": "/Portfolio/static/media/CardiovascularDisease.5a85daa84d6e0ffa6294.jpg",
@@ -13,6 +16,7 @@
     "static/media/html.png": "/Portfolio/static/media/html.16f72e1cb51965b88ff6.png",
     "static/media/Profile.png": "/Portfolio/static/media/Profile.364e16333e18fd300b5c.png",
     "static/media/jupyter.png": "/Portfolio/static/media/jupyter.e0e612fd290b62ecd44a.png",
+    "static/media/Shivam_Sharma.pdf": "/Portfolio/static/media/Shivam_Sharma.160e2ab616cc7d3a3fb3.pdf",
     "static/media/Cpp.png": "/Portfolio/static/media/Cpp.fc461cc8303a38559c80.png",
     "static/media/node.png": "/Portfolio/static/media/node.c2e22c634a7336cbe298.png",
     "static/media/python.png": "/Portfolio/static/media/python.bcb980ceaedea2cd0035.png",
@@ -29,12 +33,12 @@
     "static/media/eqlfinlogo.svg": "/Portfolio/static/media/eqlfinlogo.b24a61629f04b170509aff3534d703b4.svg",
     "static/media/js.png": "/Portfolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/Portfolio/index.html",
-    "main.0ea7d094.css.map": "/Portfolio/static/css/main.0ea7d094.css.map",
-    "main.20a6ac6b.js.map": "/Portfolio/static/js/main.20a6ac6b.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.9a1bd267.css.map": "/Portfolio/static/css/main.9a1bd267.css.map",
+    "main.4ee96246.js.map": "/Portfolio/static/js/main.4ee96246.js.map",
+    "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ea7d094.css",
-    "static/js/main.20a6ac6b.js"
+    "static/css/main.9a1bd267.css",
+    "static/js/main.4ee96246.js"
   ]
 }
