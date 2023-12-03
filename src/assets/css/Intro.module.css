@@ -1,0 +1,48 @@
+.intro {
+  min-width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.intro h1 {
+  color: var(--black);
+  font-weight: 500;
+  font-size: 3.5rem;
+  margin: 0 0 20px 0;
+}
+.intro h1 span {
+  border-bottom: 5px solid var(--black);
+}
+.intro p {
+  width: 95%;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+  color: var(--grey);
+}
+
+@media screen and (max-width: 768px) {
+  .intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    height: 500px;
+  }
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .intro h1 span {
+    border-bottom: 3px solid var(--black);
+  }
+  .intro p {
+    width: 95%;
+    font-size: 1rem;
+  }
+}

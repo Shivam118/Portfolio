@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "../assets/css/Navbar.module.css";
 import { Link } from "react-scroll";
 import LinkItem from "./LinkItem";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <span>SHIVAM</span>
       <ul>
         <li>

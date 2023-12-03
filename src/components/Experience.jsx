@@ -1,19 +1,17 @@
 import React from "react";
-import NEO from "./Projects/NEO.png";
-import LogoR from "./Projects/LogoR.png";
-// eslint-disable-next-line no-unused-vars
-import LogoE from "./Projects/eqlfinlogo.svg";
+import styles from "../assets/css/Experience.module.css";
+import { NEO, LogoE, LogoR } from "./ExperienceLogo";
 
 const ExpCard = ({ imgSrc, Org, Role, timing }) => {
   return (
-    <div className="Exp_Card">
-      <div className="Exp_Card_Icon">
+    <div className={styles.Exp_Card}>
+      <div className={styles.Exp_Card_Icon}>
         <img src={imgSrc} alt={imgSrc} />
       </div>
-      <div className="Exp_Card_Content">
-        <div className="Exp_Card_Org">{Org}</div>
-        <div className="Exp_Card_Role">{Role}</div>
-        <div className="Exp_Card_Timing">{timing}</div>
+      <div className={styles.Exp_Card_Content}>
+        <div className={styles.Exp_Card_Org}>{Org}</div>
+        <div className={styles.Exp_Card_Role}>{Role}</div>
+        <div className={styles.Exp_Card_Timing}>{timing}</div>
       </div>
     </div>
   );
@@ -21,11 +19,11 @@ const ExpCard = ({ imgSrc, Org, Role, timing }) => {
 
 const Experience = () => {
   return (
-    <div className="Exp" id="ExpID">
-      <div className="Exp_Title">
+    <div className={styles.Exp} id="ExpID">
+      <div className={styles.Exp_Title}>
         <h1>EXPERIENCE</h1>
       </div>
-      <div className="Exp_List">
+      <div className={styles.Exp_List}>
         <ExpCard
           imgSrc={LogoE}
           Role="Full Stack Developer"

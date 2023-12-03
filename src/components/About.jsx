@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Profile from "./Profile.png";
+import Profile from "../assets/images/Profile.png";
 import LinkItem from "./LinkItem";
 // eslint-disable-next-line no-unused-vars
 // import LinkArrowLight from "./upLight.png";
-import Resume from "./Shivam_Sharma.pdf";
+import Resume from "../assets/Shivam_Sharma.pdf";
+import styles from "../assets/css/About.module.css";
 
 const About = () => {
   const position = window.pageYOffset;
@@ -23,8 +24,8 @@ const About = () => {
   }, []);
 
   return (
-    <div className="About" id="AboutId">
-      <div className="Content">
+    <div className={styles.About} id="AboutId">
+      <div className={styles.Content}>
         <h1>Who am I ?</h1>
         <p>
           Hey, I am Shivam Sharma. I am a undergraduate Student of B.Tech CSE
@@ -50,7 +51,7 @@ const About = () => {
           </svg>
         </span>
       </div>
-      <div className="ImgBox">
+      <div className={styles.ImgBox}>
         <img src={Profile} alt="Profile" />
         <span style={{ transform: "rotate(" + scrollPosition + "deg)" }}>
           <svg
@@ -65,7 +66,7 @@ const About = () => {
               cy="107"
               r="106.349"
               stroke="var(--black)"
-              stroke-width="1.30219"
+              strokeWidth="1.30219"
             />
             <path
               d="M40.3333 88.288L39.7985 91.6534L36.1845 92.3699L35.1187 99.0765L38.3325 100.878L37.7938 104.268L21.8461 95.2792L22.3848 91.8896L40.3333 88.288ZM26.6469 94.2797L32.2935 97.4856L33.0053 93.0065L26.6469 94.2797Z"

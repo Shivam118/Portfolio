@@ -1,0 +1,146 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  border: 1px solid red;
+ } */
+.Projects {
+  width: 100%;
+  padding: 0px;
+  margin: 30px 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+.Projects h1 {
+  color: var(--black);
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.Projects > span {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.Project {
+  border: 1px solid #5555554d;
+  overflow: hidden;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  margin: 20px 0;
+}
+.Project .ImgBox {
+  min-width: 300px;
+  /* height: auto; */
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  border-bottom: 1px solid var(--grey);
+  position: relative;
+}
+.Project .ImgBox::after {
+  content: "";
+  position: absolute;
+  background: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s;
+}
+.Project .ImgBox:hover::after {
+  opacity: 0.2;
+  transition: 0.5s;
+}
+.Project .ImgBox img {
+  width: 100%;
+  object-fit: contain;
+  transition: 0.5s;
+}
+.Project .ImgBox:hover img {
+  width: 120%;
+  transition: 0.5s;
+}
+.Project .Content {
+  width: 100%;
+  padding: 0px 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column; */
+}
+.Project .Content h1 {
+  color: var(--black);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.Project .Content p {
+  color: var(--black);
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.Project .Content p:nth-child(3) {
+  font-weight: 500;
+}
+.Project .Content div {
+  display: flex;
+  flex-direction: row;
+}
+.Project .Content div span {
+  margin: 0 20px 0 0;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Projects h1 {
+    font-size: 2.5rem;
+  }
+  .Projects > span {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  .Project {
+    width: 70%;
+  }
+  .Project .ImgBox {
+    min-width: 300px;
+    height: 200px;
+  }
+  .Project .Content h1 {
+    font-size: 1.25rem;
+  }
+  .Project .Content p {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Projects h1 {
+    font-size: 2rem;
+  }
+  .Projects > span {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  .Project {
+    width: 90%;
+  }
+  .Project .ImgBox {
+    min-width: 250px;
+    height: 150px;
+  }
+  .Project .Content h1 {
+    font-size: 1rem;
+  }
+  .Project .Content p {
+    font-size: 0.75rem;
+  }
+}

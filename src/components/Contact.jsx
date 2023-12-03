@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import LinkItem from "./LinkItem";
+import styles from "../assets/css/Contact.module.css";
 
 const Contact = () => {
   const form = useRef();
@@ -25,8 +26,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="Contact" id="ContactID">
-      <div className="Content">
+    <div className={styles.Contact} id="ContactID">
+      <div className={styles.Content}>
         <h1>
           Get in touch{" "}
           <span style={{ borderBottom: "4px solid var(--black)" }}>today</span>.
@@ -106,7 +107,7 @@ const Contact = () => {
           </span>
         </div>
       </div>
-      <div className="Form">
+      <div className={styles.Form}>
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"

@@ -1,0 +1,91 @@
+.About {
+  width: 100%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.About .Content {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 20px 0 0;
+  margin: 20px 0 50px 0;
+}
+.About .Content h1 {
+  color: var(--black);
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.About .Content p {
+  color: var(--black);
+  width: 95%;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+.About .Content p a {
+  /* text-decoration: none; */
+  color: var(--black);
+}
+.About .ImgBox {
+  width: 30%;
+  min-width: 250px;
+  /* height:100%; */
+  position: relative;
+  pointer-events: none;
+}
+.About .ImgBox img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(1.25) contrast(1.15);
+  background-color: #5553;
+  padding: 20px 20px 0px 20px;
+}
+.About .ImgBox span {
+  width: 45%;
+  height: 45%;
+  position: absolute;
+  left: -20%;
+  top: -20%;
+}
+.About .ImgBox span svg {
+  width: 100%;
+  /* color: var(--black); */
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .About .Content h1 {
+    font-size: 2.5rem;
+  }
+  .About .Content p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .About .Content {
+    width: 90%;
+    height: 100%;
+  }
+  .About .Content h1 {
+    font-size: 2rem;
+  }
+  .About .Content p {
+    font-size: 0.85rem;
+  }
+  .About .ImgBox img:nth-child(2) {
+    width: 30%;
+    height: 30%;
+    left: -10%;
+    top: -10%;
+  }
+}

@@ -1,0 +1,111 @@
+.Exp {
+  width: 100%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Exp_Title {
+  padding: 0 20px 0 0;
+  margin: 20px 0 20px 0;
+}
+.Exp_Title h1 {
+  color: var(--black);
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.Exp_List {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 0 0 20px;
+  /* border: 1px solid var(--grey); */
+  overflow-y: scroll;
+}
+.Exp_Card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  /* border:1px solid var(--grey); */
+}
+.Exp_Card_Icon {
+  width: 75px;
+  height: 75px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  pointer-events: none;
+}
+.Exp_Card_Icon img {
+  width: 100%;
+  height: 100%;
+}
+.Exp_Card_Content {
+  margin-left: 30px;
+}
+.Exp_Card_Org {
+  color: var(--black);
+  width: 300px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+.Exp_Card_Role {
+  color: var(--black);
+  font-weight: 300;
+  font-size: 1rem;
+}
+.Exp_Card_Timing {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--grey);
+}
+
+@media screen and (max-width: 500px) {
+  .Exp_Title h1 {
+    font-size: 2rem;
+  }
+  .Exp_List {
+    width: 300px;
+  }
+  .Exp_Card {
+    padding: 10px;
+    margin: 10px 0;
+    /* border:1px solid var(--grey); */
+  }
+  .Exp_Card_Icon {
+    width: 40px;
+    height: 40px;
+  }
+  .Exp_Card_Icon img {
+    width: 100%;
+    height: 100%;
+  }
+  .Exp_Card_Content {
+    margin-left: 20px;
+  }
+  .Exp_Card_Org {
+    width: 200px;
+    font-size: 1rem;
+  }
+  .Exp_Card_Role {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  .Exp_Card_Timing {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+}

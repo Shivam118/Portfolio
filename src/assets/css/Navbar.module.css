@@ -1,0 +1,53 @@
+.header {
+  color: var(--black);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.header span {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 2px;
+}
+.header span a:hover {
+  color: var(--grey);
+}
+.header a {
+  text-decoration: none;
+  color: var(--black);
+}
+.header ul {
+  /* width: 50%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.header ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+@media screen and (max-width: 768px) {
+  .header span {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header span {
+    font-size: 1rem;
+  }
+  .header ul {
+    display: none;
+  }
+}

@@ -1,0 +1,55 @@
+.Techstack {
+  width: 100%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.Techstack h1 {
+  color: var(--black);
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.Techstack .Logos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Techstack .Logos .Logo {
+  width: 100%;
+  /* min-width: ; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* pointer-events: none; */
+}
+.Techstack .Logos .Logo img {
+  height: 75px;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .Techstack h1 {
+    font-size: 2.5rem;
+  }
+  .Techstack .Logos .Logo img {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Techstack h1 {
+    font-size: 2rem;
+  }
+  .Techstack .Logos .Logo img {
+    height: 35px;
+    margin: 10px;
+  }
+}
