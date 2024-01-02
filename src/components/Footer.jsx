@@ -3,7 +3,7 @@ import styles from "../assets/css/Footer.module.css";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <address>© 2022 - Shivam Sharma</address>
+      <address>©{new Date().getFullYear()} - Shivam Sharma</address>
       <div className={styles.Logos}>
         <a href="https://www.instagram.com/_sharma_shi.v/">
           <img
