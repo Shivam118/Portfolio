@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1059daac.css",
-    "main.js": "/Portfolio/static/js/main.13f15f0b.js",
+    "main.js": "/Portfolio/static/js/main.0ec56aa6.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Alemeno.gif": "/Portfolio/static/media/Alemeno.f120807a2e519c4fac6d.gif",
     "static/media/ChatGPTWriterExtension.gif": "/Portfolio/static/media/ChatGPTWriterExtension.dae00d80577ebca0a184.gif",
@@ -16,7 +16,7 @@
     "static/media/html.png": "/Portfolio/static/media/html.16f72e1cb51965b88ff6.png",
     "static/media/Profile.png": "/Portfolio/static/media/Profile.364e16333e18fd300b5c.png",
     "static/media/jupyter.png": "/Portfolio/static/media/jupyter.e0e612fd290b62ecd44a.png",
-    "static/media/Shivam_Sharma.pdf": "/Portfolio/static/media/Shivam_Sharma.160e2ab616cc7d3a3fb3.pdf",
+    "static/media/Shivam_Sharma.pdf": "/Portfolio/static/media/Shivam_Sharma.26d7f861358c02a056dc.pdf",
     "static/media/Cpp.png": "/Portfolio/static/media/Cpp.fc461cc8303a38559c80.png",
     "static/media/node.png": "/Portfolio/static/media/node.c2e22c634a7336cbe298.png",
     "static/media/python.png": "/Portfolio/static/media/python.bcb980ceaedea2cd0035.png",
@@ -34,11 +34,11 @@
     "static/media/js.png": "/Portfolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/Portfolio/index.html",
     "main.1059daac.css.map": "/Portfolio/static/css/main.1059daac.css.map",
-    "main.13f15f0b.js.map": "/Portfolio/static/js/main.13f15f0b.js.map",
+    "main.0ec56aa6.js.map": "/Portfolio/static/js/main.0ec56aa6.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1059daac.css",
-    "static/js/main.13f15f0b.js"
+    "static/js/main.0ec56aa6.js"
   ]
 }
