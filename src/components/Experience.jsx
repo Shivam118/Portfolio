@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../assets/css/Experience.module.css";
-import { NEO, LogoE, LogoR } from "./ExperienceLogo";
+import { LogoE, LogoM, LogoR } from "./ExperienceLogo";
 
 const ExpCard = ({ imgSrc, Org, Role, timing }) => {
   return (
@@ -25,17 +25,23 @@ const Experience = () => {
       </div>
       <div className={styles.Exp_List}>
         <ExpCard
+          imgSrc={LogoM}
+          Role="Software Developer"
+          Org="MedSupply Inc"
+          timing="Feb 2024 - Jul 2025"
+        />
+        <ExpCard
           imgSrc={LogoE}
           Role="Full Stack Developer"
           Org="EQLFIN"
-          timing="Apr 2023 - Jul 2023"
+          timing="Dec 2022 - Jul 2023"
         />
-        <ExpCard
+        {/* <ExpCard
           imgSrc={LogoE}
           Role="Full Stack Developer Intern"
           Org="EQLFIN"
           timing="Dec 2022 - Apr 2023"
-        />
+        /> */}
         <ExpCard
           imgSrc={LogoR}
           Role="Senior Full Stack Developer Intern"
@@ -48,12 +54,12 @@ const Experience = () => {
           Org="Redient Security"
           timing="Jun 2022 - Sept 2022"
         />
-        <ExpCard
+        {/* <ExpCard
           imgSrc={NEO}
           Role="Campus Ambassador"
           Org="National Engineering Olympiad"
           timing="1 months"
-        />
+        /> */}
       </div>
     </div>
   );

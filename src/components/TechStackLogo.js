@@ -19,26 +19,32 @@ import vscode from "../assets/images/TechLogos/vscode.png";
 import solidity from "../assets/images/TechLogos/solidity.png";
 import go from "../assets/images/TechLogos/go.png";
 import graphql from "../assets/images/TechLogos/graphql.png";
+import cursorai from "../assets/images/TechLogos/cursorai.webp";
+import aws from "../assets/images/TechLogos/aws.png";
+import postgresql from "../assets/images/TechLogos/postgresql.svg";
 
 const techLogos = {
+  gcloud,
+  aws,
   python,
   cpp,
-  css,
   js,
   django,
+  html,
+  css,
   express,
   firebase,
-  gcloud,
   git,
-  html,
   jupyter,
   mongodb,
+  postgresql,
   next,
   node,
   photoshop,
   postman,
   react,
   vscode,
+  cursorai,
   solidity,
   go,
   graphql,

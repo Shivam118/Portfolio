@@ -3,7 +3,7 @@
   padding: 100px 0;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -20,14 +20,14 @@
 .Exp_List {
   position: relative;
   width: 500px;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   padding: 0px 0 0 20px;
   /* border: 1px solid var(--grey); */
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 .Exp_Card {
   width: 100%;
@@ -39,16 +39,17 @@
   /* border:1px solid var(--grey); */
 }
 .Exp_Card_Icon {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: auto;
   background: #fff;
   border-radius: 10px;
-  padding: 10px;
+  /* padding: 10px; */
   pointer-events: none;
 }
 .Exp_Card_Icon img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 .Exp_Card_Content {
   margin-left: 30px;

@@ -19,21 +19,24 @@ const TechStack = () => {
         </div>
         <div className={styles.Logo}>
           <img id="mongodb" src={techLogos.mongodb} alt="MongoDB" />
+          <img id="postgresql" src={techLogos.postgresql} alt="PostgreSQL" />
           <img id="express" src={techLogos.express} alt="Express" />
           <img id="graphql" src={techLogos.graphql} alt="GraphQL" />
           <img id="react" src={techLogos.react} alt="ReactJs" />
           <img id="node" src={techLogos.node} alt="NodeJs" />
         </div>
         <div className={styles.Logo}>
-          <img id="gcloud" src={techLogos.gcloud} alt="Google Cloud" />
-          <img id="firebase" src={techLogos.firebase} alt="Firebase" />
-          {/* <img id="django" src={techLogos.django} alt="Django" /> */}
           <img id="next" src={techLogos.next} alt="NextJs" />
+          <img id="aws" src={techLogos.aws} alt="Amazon Web Services" />
+          <img id="gcloud" src={techLogos.gcloud} alt="Google Cloud" />
+          {/* <img id="django" src={techLogos.django} alt="Django" /> */}
+          <img id="firebase" src={techLogos.firebase} alt="Firebase" />
         </div>
         <div className={styles.Logo}>
           <img id="jupyter" src={techLogos.jupyter} alt="Jupyter" />
           <img id="photoshop" src={techLogos.photoshop} alt="Photoshop" />
           <img id="vscode" src={techLogos.vscode} alt="VSCode" />
+          <img id="cursorai" src={techLogos.cursorai} alt="Cursor AI" />
           <img id="git" src={techLogos.git} alt="Git" />
           <img id="postman" src={techLogos.postman} alt="Postman" />
         </div>
@@ -61,9 +64,15 @@ const TechStack = () => {
           content="MongoDB"
         />
         <Tooltip
+          anchorId="postgresql"
+          place="bottom"
+          variant="info"
+          content="PostgreSQL"
+        />
+        <Tooltip
           anchorId="express"
           place="bottom"
-          variant="warning"
+          variant="dark"
           content="ExpressJs"
         />
         <Tooltip
@@ -85,21 +94,27 @@ const TechStack = () => {
           content="NodeJs"
         />
         <Tooltip
+          anchorId="aws"
+          place="bottom"
+          variant="warning"
+          content="Amazon Web Services"
+        />
+        <Tooltip
           anchorId="gcloud"
-          place="left"
+          place="bottom"
           variant="info"
           content="Google Cloud Platform"
         />
         {/* <Tooltip anchorId="django" place="bottom" variant="success" content="Django" /> */}
         <Tooltip
           anchorId="firebase"
-          place="bottom"
+          place="right"
           variant="warning"
           content="Firebase"
         />
         <Tooltip
           anchorId="next"
-          place="right"
+          place="left"
           variant="dark"
           content="Next.Js"
         />
@@ -108,6 +123,12 @@ const TechStack = () => {
           place="left"
           variant="warning"
           content="Jupyter"
+        />
+        <Tooltip
+          anchorId="cursorai"
+          place="bottom"
+          variant="dark"
+          content="Cursor AI"
         />
         <Tooltip
           anchorId="photoshop"

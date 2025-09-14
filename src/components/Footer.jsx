@@ -3,15 +3,15 @@ import styles from "../assets/css/Footer.module.css";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <address>© 2022 - Shivam Sharma</address>
+      <address>© {new Date().getFullYear()} - Shivam Sharma</address>
       <div className={styles.Logos}>
-        <a href="https://www.instagram.com/_sharma_shi.v/">
+        <a href="https://www.instagram.com/shiv.am_shar.ma_/">
           <img
             src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"
             alt="SocialMediaIcons"
           />
         </a>
-        <a href="https://www.facebook.com/shushant.sharma.7/">
+        <a href="https://www.facebook.com/shivam118.5/">
           <img
             src="https://img.icons8.com/color/48/000000/facebook-new.png"
             alt="SocialMediaIcons"
@@ -29,7 +29,7 @@ const Footer = () => {
             alt="SocialMediaIcons"
           />
         </a>
-        <a href="https://www.twitter.com/shushant121212">
+        <a href="https://www.twitter.com/Shivu_118">
           <img
             src="https://img.icons8.com/color/48/000000/twitter--v1.png"
             alt="SocialMediaIcons"
